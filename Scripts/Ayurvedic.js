@@ -26,7 +26,7 @@ let head = document.getElementById("container2");
 
  let parent = document.getElementById("productContainer");
 
- let response = await getData(`http://localhost:3000/Ayurvedic_Medicine`);
+ let response = await getData(`https://fake-data-ii.herokuapp.com/Ayurvedic_Medicine`);
 //  console.log(response);
  appendData(response, parent);
 
@@ -104,7 +104,7 @@ document.getElementById("searchItem").addEventListener("input", ()=>{
 
 const getData2=async()=>{
     try {
-        let medicine = await fetch(`http://localhost:3000/multiVitamins`);
+        let medicine = await fetch(`https://fake-data-ii.herokuapp.com/Ayurvedic_Medicine`);
         let data = await medicine.json();
         return data;
         

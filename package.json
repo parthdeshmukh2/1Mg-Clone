@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "A Construct Week Project, Masai Unit 3",
   "main": "index.js",
+
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "data": "node server.js"
+    "data": "node server.js",
+    "homepage":"."
   },
   "repository": {
     "type": "git",
